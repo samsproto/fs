@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sam's Club - PDP</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/awesome-bootstrap-checkbox/0.3.7/awesome-bootstrap-checkbox.min.css">
+    <link rel="stylesheet" type="text/css" href="../fonts/fonts-aktiv.css">
+    <link rel="stylesheet" type="text/css" href="../fonts/fonts-bree.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/star-ratings.css">
+    <link rel="stylesheet" type="text/css" href="../css/thumbnail-gallery.css">
+    <link rel="stylesheet" type="text/css" href="../css/pdp.css">
+    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <link rel="shortcut icon" href="../images/favicon.png">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="../css/rachit.css">
+    
+  </head>
+
+  <body style="padding:0 !important;">
+
+    <!-- <nav class="navbar navbar-default navbar-fixed-top no-print">
+      <div class="container">
+        <div class="pencil-ad">
+          <div class="container text-center text-muted">&nbsp;</div>
+        </div>
+        <div class="header-links text-right">
+          <ul class="list-inline list-unstyled">
+            <li><a href="#">Sam's Club Credit</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Renew</a></li>
+          </ul>
+        </div>
+        <div class="navbar-header">
+          <div class="navbar-right club-acct-cart-menu">
+            <ul class="list-inline list-unstyled">
+              <li class="club" id="club" data-trigger="hover" data-container="body" data-toggle="popover" data-popover-content="#your-club-popover" data-placement="auto bottom">
+                Your club <i class="fa fa-chevron-down fa-fw"></i><br>
+                Sacramento, CA
+              </li>
+              <li class="acct" id="acct" data-trigger="hover" data-container="body" data-toggle="popover" data-popover-content="#your-account-popover" data-placement="auto bottom">
+                Your account <i class="fa fa-chevron-down fa-fw"></i><br>
+                Alex
+              </li>
+              <li class="cart" id="cart">
+                <a href="checkout-shipping.html" class="btn btn-primary btn-lg cart">Cart <span class="cart-count">0</span><span class="icon"></span></a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-right club-acct-cart-menu-simple">
+            <a href="#"><i class="fa fa-map-marker"></i></a>
+            <a href="checkout-shipping.html" class="btn btn-primary btn-lg"><i class="fa fa-shopping-cart"></i></a>
+          </div>
+          <div class="navbar-left shrink-menu">
+            <i class="fa fa-bars fa-lg" aria-hidden="true"></i> Menu
+          </div>
+          <a class="navbar-brand" href="#" title="Sam's Club Home">Sam's Club</a>
+          <form class="navbar-form navbar-left search-form" role="form">
+            <div class="form-group has-feedback">
+              <label class="control-label sr-only" for="search">Search</label>
+              <input type="text" id="search" class="form-control" placeholder="Search..." />
+              <span class="fa-stack fa-lg form-control-feedback" aria-hidden="true">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-search fa-stack-1x fa-inverse"></i>
+              </span>
+            </div>
+          </form>
+        </div>
+        <div class="header-links super-menu">
+          <ul class="list-inline list-unstyled">
+            <li class="all-dept dropdown">
+              <a data-toggle="dropdown" class="dropdown-toggle disabled" href="#">Shop by department <i class="fa fa-chevron-down fa-fw"></i></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#"><i class="fa fa-chevron-right fa-fw pull-right"></i>Electronics</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-chevron-right fa-fw pull-right"></i>Office</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-chevron-right fa-fw pull-right"></i>Home</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-chevron-right fa-fw pull-right"></i>Furniture</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-chevron-right fa-fw pull-right"></i>Auto &amp; Tires</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-chevron-right fa-fw pull-right"></i>Outdoor, Patio &amp; Garden</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-chevron-right fa-fw pull-right"></i>Baby</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-chevron-right fa-fw pull-right"></i>Grocery, Household &amp; Pets</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-chevron-right fa-fw pull-right"></i>Pharmacy, Health &amp; Beauty</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-chevron-right fa-fw pull-right"></i>Jewelry, Flowers &amp; Gifts</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-chevron-right fa-fw pull-right"></i>Toy &amp; Video Games</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-chevron-right fa-fw pull-right"></i>Sports &amp; Fitness</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-chevron-right fa-fw pull-right"></i>Auctions</a>
+                </li>
+                <li>
+                  <a href="#"><strong>All Departments</strong></a>
+                </li>
+              </ul>
+            </li>
+            <li class="business-tools dropdown">
+              <a data-toggle="dropdown" class="dropdown-toggle disabled" href="#">Business tools <i class="fa fa-chevron-down fa-fw"></i></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Easy reorder</a></li>
+                <li><a href="#">Lists</a></li>
+                <li><a href="#">Order by item number</a></li>
+                <li class="category">Shop for business</li>
+                <li>
+                  <a href="#"><i class="fa fa-chevron-right fa-fw pull-right"></i>Office</a>
+                  <div class="sub-menu">
+                    <div class="row">
+                      <div class="col-xs-6">
+                        <dl>
+                          <dt>Paper &amp; Envelopes</dt>
+                          <dd>Copy paper</dd>
+                          <dd>Laser &amp; inkjet paper</dd>
+                          <dd>Envelopes</dd>
+                          <dd>Writing pads &amp; notebooks</dd>
+                        </dl>
+                        <dl>
+                          <dt>Office Supplies</dt>
+                          <dd>Pen, pencils &amp; markers</dd>
+                          <dd>Self-stick notes &amp; flags</dd>
+                          <dd>Tape &amp; adhesives</dd>
+                          <dd>Staples &amp; stapler supplies</dd>
+                          <dd>Correction tape &amp; fluid</dd>
+                          <dd>Clips &amp; rubber bands<dd>
+                        </dl>
+                        <dl>
+                          <dt>Office Furniture</dt>
+                          <dd>Desk &amp; Workstations</dd>
+                          <dd>Custom Workstations</dd>
+                          <dd>Office Chairs</dd>
+                        </dl>
+                        <dl>
+                          <dt>Advertising &amp; Marketing Materials</dt>
+                        </dl>
+                      </div>
+                      <div class="col-xs-6">
+                        <dl>
+                          <dt>A/V Presentation Supplies</dt>
+                        </dl>
+                        <dl>
+                          <dt>Office Technology</dt>
+                          <dd>Shredders</dd>
+                          <dd>Printers &amp; Scanners</dd>
+                          <dd>Cash Registers &amp; Supplies</dd>
+                          <dd>Ink &amp; Toner</dd>
+                        </dl>
+                        <dl>
+                          <dt>Office Safety &amp; Security</dt>
+                        </dl>
+                        <dl>
+                          <dt>Breakroom Supplies</dt>
+                          <dd>Beverages</dd>
+                          <dd>Veding Machines</dd>
+                          <dd>Candy &amp; snacks</dd>
+                          <dd>Tableware Disposales</dd>
+                          <dd>Coffee &amp; Tea</dd>
+                          <dd>Waste Collection &amp; Recyling</dd>
+                        </dl>
+                        <dl>
+                          <dt>Ink &amp; Toner</dt>
+                        </dl>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-chevron-right fa-fw pull-right"></i>
+                    Convenience store
+                  </a>
+                  <div class="sub-menu">
+                    <div class="row">
+                      <div class="col-xs-6">
+                        column 1a
+                      </div>
+                      <div class="col-xs-6">
+                        column 2b
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li class="member-services dropdown">
+              <a data-toggle="dropdown" class="dropdown-toggle disabled" href="#">Member Services <i class="fa fa-chevron-down fa-fw"></i></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Club Pickup</a></li>
+                <li><a href="#">Travel</a></li>
+                <li><a href="#">Photo</a></li>
+                <li><a href="#">Pharmacy</a></li>
+                <li><a href="#">Hearing Aid Center</a></li>
+                <li><a href="#">Health Insurance</a></li>
+                <li><a href="#">Auto Buying Program</a></li>
+                <li><a href="#">Identity Protection</a></li>
+                <li><a href="#"><strong>All Services</strong></a></li>
+              </ul>
+            </li>
+            <li><a href="#">Shocking Values</a></li>
+            <li><a href="#">Instant Savings</a></li>
+            <li class="pull-right header-get-plus" id="get-plus" data-trigger="hover" data-container="body" data-toggle="popover" data-popover-content="#free-shipping-plus-popover" data-placement="auto bottom">
+              <a href="#">Upgrade to <span class="logo_plus">Plus<sup>+</sup></span> to get Free shipping</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+
+
+    <div class="container" style="width:100% !important; padding:0 !important;">
+
+      <img src="../images/ty-page-upgraded.png" style="width:100%; position:absolute;left:0; top:0;">
+
+    </div>
+
+
+    <!-- <footer class="footer">
+      <div class="container">
+        <div class="row footer-sections email">
+          <div class="col-xs-12 col-sm-6">
+            <span class="title">Sign up for email updates</span><br>
+            Get info on savings events, special offers, new items, <br>
+            in-club events and more. <a href="#" title="Sam's Club privacy policy">Privacy policy</a>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <form class="form-inline text-nowrap">
+              <div class="form-group">
+                <label class="sr-only" for="email-sign-up">Email</label>
+                <input type="email" class="form-control" id="email-sign-up" placeholder="Email address" aria-describedby="helpBlock">
+                <p id="helpBlock" class="help-block">Email signup isn’t currently available in Puerto Rico</p>
+              </div>
+              <button type="submit" class="btn btn-secondary btn-lg">Sign up</button>
+            </form>
+          </div>
+        </div>
+        <div class="row footer-sections shortcuts hidden-xs">
+          <div class="col-xs-12 col-sm-3">
+            <strong>Membership</strong><br>
+            Join Sam's Club<br>
+            Renew your membership<br>
+            Register your membership<br>
+          </div>
+          <div class="col-xs-12 col-sm-3">
+            <strong>About</strong><br>
+            Sam's Club corporate<br>
+            Careers<br>
+            Supplies<br>
+            Our brands<br>
+          </div>
+          <div class="col-xs-12 col-sm-3">
+            <strong>Orders</strong><br>
+            Track orders<br>
+            Club pickup<br>
+            Returns and refunds<br>
+            Ratings &amp; reviews FAQ<br>
+          </div>
+          <div class="col-xs-12 col-sm-3">
+            <strong>Help</strong><br>
+            Help center<br>
+            Contact us<br>
+            Product recalls<br>
+          </div>
+        </div>
+        <div class="row footer-sections">
+          <div class="col-xs-12 col-sm-6">
+            <p class="contacts">Contact us &nbsp;&nbsp;|&nbsp;&nbsp; Terms &nbsp;&nbsp;|&nbsp;&nbsp; Privacy &nbsp;&nbsp;|&nbsp;&nbsp; California privacy rights &nbsp;&nbsp;|&nbsp;&nbsp; Get our apps</p>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <p class="copyright">&copy; 2000-2017, Sam’s West, Inc. All rights reserved</p>
+          </div>
+          <div class="col-xs-12 col-sm-2 text-right hidden-xs">
+            <span class="fa-stack">
+              <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+              <i class="fa fa-facebook fa-stack-1x"></i>
+            </span>
+            <span class="fa-stack">
+              <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+              <i class="fa fa-twitter fa-stack-1x"></i>
+            </span>
+            <span class="fa-stack">
+              <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+              <i class="fa fa-pinterest fa-stack-1x"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="../js/jquery.dotdotdot.min.js"></script>
+    <script src="../js/thumbnail-gallery.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/header.js"></script>
+  </body>
+</html>
