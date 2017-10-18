@@ -1,0 +1,46 @@
+
+.footer {
+  background:#f6f6f6;
+  padding-top:25px;
+  margin-top:50px;
+  color:rgba(66, 66, 66, 0.7);
+  font-size:12px;
+  font-weight:300;
+}
+
+.footer > .container {
+  padding:0 32px;
+}
+
+.footer-sections {
+  border-top:1px solid rgba(66, 66, 66, 0.1);
+  padding-top:25px;
+  padding-bottom:25px;
+}
+
+.footer-sections.email {
+  border:0;
+  padding-top:0;
+}
+
+.footer-sections.email .title {
+  font-size:20px;
+  font-weight:500;
+  color:rgba(66, 66, 66, 0.8);
+}
+
+.footer-sections.email .form-control {
+  width:311px;
+}
+
+.footer-sections.email .form-inline .form-group {
+    display: inline-block;
+}
+
+.footer-sections.email .help-block {
+  margin-top:8px;
+}
+
+.footer-sections.shortcuts {
+  line-height:30px;
+}

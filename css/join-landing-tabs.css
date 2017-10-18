@@ -1,0 +1,288 @@
+/* 3 card homepage */
+@media (min-width:1024px) {
+  body {
+    padding-top:200px;
+  }
+}
+
+.headline {
+  margin-bottom:40px;
+}
+
+.headline h1 {
+  color: rgba(66,66,66,0.9);
+}
+
+.nav.nav-tabs {
+  padding-left:50px;
+  margin-bottom:16px;
+  border-bottom:2px solid rgba(66,66,66,0.3);
+}
+
+.nav-tabs > li {
+  margin-right:6px;
+  margin-bottom:-2px;
+}
+
+.nav-tabs > li > a {
+  border-radius:4px 4px 0 0;
+  width:240px;
+  text-align:center;
+  background:rgba(66,66,66,0.1);
+  font-size:16px;
+  font-weight:500;
+  border:0;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  color:rgba(66,66,66,0.7);
+  border:2px solid rgba(66,66,66,0.3);
+  border-bottom:transparent;
+}
+
+.tab-pane#family .membership-types-wrap,
+.tab-pane#business .membership-types-wrap {
+  background:#eee url('../join/images/hero_tabs_family.png') 30% 10% no-repeat;
+  background-size:cover;
+  padding:240px 0;
+  position:relative;
+}
+
+.tab-pane#business .membership-types-wrap {
+  background:#eee url('../join/images/hero_tabs_business.png') 30% 10% no-repeat;
+  background-size:cover;
+}
+
+.tab-pane .membership-types {
+  position:absolute;
+  width:100%;
+  right:0;
+  bottom:0;
+}
+
+/* toggle chevron up and down */
+.compare a[aria-expanded=true] .fa-chevron-down,
+.compare a[aria-expanded=false] .fa-chevron-up {
+  display: none;
+}
+
+.table.comparisons > thead > tr > th {
+  font-size:18px;
+}
+
+.table.comparisons > tbody > tr > td {
+  vertical-align: middle;
+  padding:25px 20px;
+  width:25%;
+}
+
+.table.comparisons > tbody > tr > td:first-child {
+  width:50%;
+  padding-right:150px;
+}
+
+.table.comparisons .features {
+  color:rgba(66,66,66,0.6)
+}
+
+.table.comparisons .fa-check-circle {
+  color:rgba(76, 169, 12, 1);
+}
+
+.table.comparisons .features .headline {
+  font-size:18px;
+  font-weight:500;
+  margin-bottom:5px;
+  color:rgba(66,66,66,1)
+}
+
+.table.comparisons.summary {
+  margin-bottom:0;
+}
+
+.table.comparisons.summary > tbody > tr > td {
+  border:none;
+  background:rgba(255,255,255,0.91);
+  padding:0;
+  padding-top:20px;
+  color:rgba(66,66,66,0.9)
+}
+
+.table.comparisons.summary > tbody > tr > td:first-child {
+  background:none;
+  opacity:1;
+}
+
+.table.comparisons.summary > tbody > tr > td .details {
+  padding:0 5px;
+  position:relative;
+}
+
+.table.comparisons.summary > tbody > tr > td .details .flag {
+  position:absolute;
+  background:#ec7202;
+  color:#fff;
+  top:-8px;
+  left:16px;
+  padding:2px 12px;
+  font-family: 'bree_serifregular';
+  font-size:14px;
+  border-radius:4px;
+}
+
+.table.comparisons.summary > tbody > tr > td .title {
+  font-weight:500;
+  color:rgba(66,66,66,0.9);
+  font-size:16px;
+  margin-bottom:0;
+  padding-top:25px;
+}
+
+.table.comparisons.summary > tbody > tr > td .price {
+  font-weight:500;
+  font-size:36px;
+  color:rgba(66,66,66,1);
+}
+
+.table.comparisons.summary > tbody > tr > td .price sup {
+  vertical-align:baseline;
+  font-size:55%;
+}
+
+.table.comparisons.summary > tbody > tr > td .price .per-year {
+  vertical-align:98%;
+  font-size:35%;
+  font-weight:400;
+  color:rgba(66,66,66,.75)
+}
+
+.table.comparisons.summary > tbody > tr > td .details ul {
+  padding:0;
+  margin:0;
+  padding-left:25px;
+  margin-bottom:10px;
+  font-size:12px;
+  text-align:left;
+  color:rgba(66, 66, 66, .7);
+  min-height:80px;
+  max-height:120px;
+}
+
+.table.comparisons.summary > tbody > tr > td .details ul li {
+  padding-bottom:4px;
+}
+
+.table.comparisons.summary > tbody > tr > td .btn-primary {
+   width:160px;
+}
+
+.table.comparisons.summary > tbody > tr > td .per-month {
+  color:rgba(66, 66, 66, .7);
+  font-size:12px;
+  margin-top:10px;
+}
+
+.table.comparisons.summary > tbody > tr > td.compare {
+  padding-bottom:0;
+  padding-top:0;
+  font-weight:500;
+}
+
+@media (min-width:320px) and (max-width:767px) {
+  .table.comparisons > tbody > tr > td:first-child {
+    display:none;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+  .table.comparisons > tbody > tr > td:first-child {
+    width:30%;
+    padding-right:25px;
+  }
+
+  .table.comparisons > tbody > tr > td {
+    width:35%;
+  }
+}
+
+.section {
+  border-top:1px solid #eee;
+  padding-top:15px;
+  padding-bottom:25px;
+}
+
+.section .title {
+  color:rgba(66,66,66,0.6);
+  margin-bottom:25px;
+}
+
+.section .title h3 {
+  color:rgba(66,66,66,0.85);
+}
+
+.section .perks {
+  margin-bottom:30px;
+}
+
+.section .perks img {
+  max-width:18%;
+}
+
+.section .perks .name {
+  font-weight:500;
+  font-size:16px;
+  color:rgba(66,66,66,0.9);
+}
+
+.section .perks .desc {
+  font-size:14px;
+  color:rgba(66,66,66,0.65);
+  margin-right:75px;
+  margin-left:75px;
+}
+
+.section.local-club .heading {
+  font-size:18px;
+  font-weight:500;
+}
+
+.section.testimonials .media {
+  padding-left:80px;
+  padding-right:80px;
+  margin-bottom:25px;
+}
+
+.section.more-options .military {
+  background:#eee url('../join/images/membership_military.png') 25% 40% no-repeat;
+  background-size:cover;
+  margin:0;
+  padding:0;
+}
+
+.section.more-options .collegiate {
+  background:#eee url('../join/images/membership_collegiate.png') 25% 40% no-repeat;
+  background-size:cover;
+  margin:0;
+  padding:0;
+}
+
+.section.more-options .military-info,
+.section.more-options .collegiate-info {
+  background:rgba(255,255,255,0.85);
+  text-align:center;
+  height:250px;
+  padding:30px 25px;
+  background-size:auto;
+}
+
+.section.more-options .military-info .heading,
+.section.more-options .collegiate-info .heading {
+  font-size:20px;
+  color:rgba(66,66,66,09);
+  font-weight:600;
+  margin-top:22px;
+}
+/* /3 card homepage */

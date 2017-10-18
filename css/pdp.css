@@ -1,0 +1,88 @@
+.item-title-wrap {
+  padding-bottom:18px;
+  border-bottom:1px solid rgba(66,66,66,0.2);
+}
+
+h1.item-title {
+  font-family:'aktiv_grotesk',sans-serif;
+}
+
+.item-subtitle {
+  color: rgba(66,66,66,0.6);
+  position:relative;
+}
+
+.rating {
+  margin: 0 0 -11px 1px;
+}
+
+.image-gallery-wrap {
+  border-bottom:1px solid rgba(66,66,66,0.2);
+  padding-bottom:50px;
+}
+
+.image-gallery-wrap .image-gallery {
+  width:640px;
+  margin:0 auto;
+  text-align:center;
+}
+
+.moneybox-wrap {
+  border-left:1px solid rgba(66,66,66,0.2);
+  min-height:550px;
+}
+
+.moneybox-wrap .flag {
+  font-size:14px;
+}
+
+.moneybox-wrap .savings {
+  background:rgba(25,119,211,0.2);
+  padding:25px;
+}
+
+.moneybox-wrap .savings .title {
+  font-weight:500;
+  margin-top:8px;
+}
+
+.moneybox-wrap .savings .subtitle {
+  color:rgba(66,66,66,0.8)
+}
+
+.moneybox-wrap .moneybox {
+  padding:25px;
+}
+
+.moneybox-wrap .moneybox .pricing {
+  margin-top:12px;
+  color:rgba(66,66,66,0.8);
+  letter-spacing:-1px;
+}
+
+.moneybox-wrap .moneybox .pricing sup {
+  padding:0;
+  margin:0;
+  top:-.82em;
+}
+
+.moneybox-wrap .moneybox .pricing .sign {
+  font-weight:600;
+  font-size:20px;
+}
+
+.moneybox-wrap .moneybox .pricing .dollar {
+  font-weight:600;
+  font-size:32px;
+  color:#000;
+  letter-spacing:0.011em;
+}
+
+.moneybox-wrap .moneybox .pricing .cents {
+  font-weight:600;
+  font-size:20px;
+}
+
+.moneybox-wrap .moneybox .fulfillment {
+  margin-bottom:32px;
+}

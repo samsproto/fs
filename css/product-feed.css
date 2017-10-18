@@ -1,0 +1,184 @@
+.product-feed-wrap {
+  background:#eee;
+}
+
+.product-feed-wrap .product-feed-title {
+  padding-bottom:20px;
+  padding-top:10px;
+}
+
+#product-feed {
+  min-height:425px;
+}
+
+#product-feed .carousel-control {
+  width:5%;
+  top:32%;
+  bottom:0;
+  text-shadow:none;
+}
+
+#product-feed .carousel-control.left,
+#product-feed .carousel-control.right {
+  background:none;
+  color:#fff;
+  text-shadow: 0px 0px 1px #000;
+}
+
+#product-feed .carousel-control.left .fa-angle-left,
+#product-feed .carousel-control.right .fa-angle-right {
+  color:#333;
+}
+
+#product-feed .product-feed-title {
+  padding-bottom:20px;
+}
+
+#product-feed .product-tiles-wrap {
+  overflow:hidden;
+  white-space:nowrap;
+  width:1364px;
+  margin-left:0;
+}
+
+#product-feed .product-tiles-wrap li.product-tile {
+  background:#fff;
+  min-height:290px;
+  width:180px;
+  margin-right:12px;
+  padding:12px;
+  float:left;
+  position:relative;
+}
+
+#product-feed .product-tiles-wrap li.product-tile .flag {
+  position:absolute;
+  font-size:12px;
+  padding:2px 8px;
+}
+
+#product-feed .product-tiles-wrap li.product-tile .img-wrap,
+#product-feed .product-tiles-wrap li.product-tile .title  {
+  margin-bottom:8px;
+}
+
+#product-feed .product-tiles-wrap li.product-tile .img-wrap img {
+  height:140px;
+  width:auto;
+}
+
+#product-feed .product-tiles-wrap li.product-tile .title {
+  font-size:14px;
+  font-weight:400;
+  height:40px;
+}
+
+#product-feed .product-tiles-wrap li.product-tile .rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  font-size:12px;
+  cursor:pointer;
+}
+
+#product-feed .product-tiles-wrap li.product-tile .rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+#product-feed .product-tiles-wrap li.product-tile .rating > span:hover:before,
+#product-feed .product-tiles-wrap li.product-tile .rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   color:#eea139;
+}
+
+#product-feed .product-tiles-wrap li.product-tile .rating > span.number {
+  margin-left:10px;
+}
+
+#product-feed .product-tiles-wrap li.product-tile .rating > span.number:hover:before,
+#product-feed .product-tiles-wrap li.product-tile .rating > span.number:hover ~ span.number:before {
+  content:"";
+}
+
+#product-feed .product-tiles-wrap li.product-tile .promo_msg1 {
+  font-size:14px;
+  font-weight:400;
+  margin-top:8px;
+  color:#424242;
+}
+
+#product-feed .product-tiles-wrap li.product-tile .promo_msg2 {
+  font-size:12px;
+}
+
+#product-feed .product-tiles-wrap li.product-tile .promo_msg2 .red-savings {
+  color:#ec0439;
+  font-weight:300;
+}
+
+#product-feed .product-tiles-wrap li.product-tile .promo_msg2 s {
+  color:rgba(66,66,66,0.8);
+}
+
+#product-feed .product-tiles-wrap li.product-tile .pricing {
+  margin-top:4px;
+  margin-bottom:-8px;
+  color:#424242;
+}
+
+#product-feed .product-tiles-wrap li.product-tile .pricing sup {
+  padding:0;
+  margin:0;
+  font-size:.8em;
+  left:-.20em;
+  top:-.82em;
+}
+
+#product-feed .product-tiles-wrap li.product-tile .pricing .sign {
+  font-weight:600;
+  font-size:14px;
+  margin-right:-4px;
+}
+
+#product-feed .product-tiles-wrap li.product-tile .pricing .dollar {
+  font-weight:600;
+  font-size:24px;
+}
+
+#product-feed .product-tiles-wrap li.product-tile .pricing .cents {
+  font-weight:600;
+  font-size:14px;
+}
+
+#product-feed .product-tiles-wrap li.product-tile .fulfillment {
+  width:100%;
+  margin:8px 0;
+  font-size:12px;
+}
+
+#product-feed .product-tiles-wrap li.product-tile .fulfillment .online,
+#product-feed .product-tiles-wrap li.product-tile .fulfillment .in-club {
+  float:left;
+  vertical-align: top;
+  width:50%;
+}
+
+#product-feed .product-tiles-wrap li.product-tile .fulfillment .online .heading,
+#product-feed .product-tiles-wrap li.product-tile .fulfillment .in-club .heading {
+  font-weight:500;
+  margin-bottom:5px;
+}
+
+#product-feed .product-tiles-wrap li.product-tile .fulfillment .online .stock,
+#product-feed .product-tiles-wrap li.product-tile .fulfillment .in-club .stock {
+  margin-bottom:5px;
+}
+
+#product-feed .product-tiles-wrap li.product-tile .fulfillment .in-club .status.clubs {
+  cursor:pointer;
+}
+
+#product-feed .product-tiles-wrap li.product-tile .fulfillment .online .status.shipping {
+  color:#4ca90c;
+}

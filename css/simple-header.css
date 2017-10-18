@@ -1,0 +1,58 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  padding-top:60px;
+  margin-bottom: 40px;
+}
+
+header {
+  background:#fff;
+  width:100%;
+  height:60px;
+  border-bottom:1px solid rgba(66, 66, 66, 0.2);
+  -webkit-box-shadow: 0 2px 3px rgba(66, 66,66, .2);
+  -moz-box-shadow: 0 2px 3px rgba(66, 66, 66, .2);
+  box-shadow: 0 2px 3px rgba(66, 66, 66, .2);
+  border-radius: 0;
+}
+
+header > .container {
+  min-height:60px;
+  width:100%;
+}
+
+header.navbar > .container .navbar-brand {
+  display: block;
+  text-indent: -9999px;
+  background: url(../images/logo_sams.svg);
+  width: 143px;
+  height: 32px;
+  background-size: 143px 32px;
+  margin-left:0;
+  margin-top:13px;
+}
+
+header .navbar-nav {
+  margin:0;
+  padding:0;
+}
+
+header .navbar-left {
+  float:left !important;
+}
+
+header .navbar-right {
+  float:right !important;
+}
+
+header .navbar-right .actions {
+  vertical-align:middle;
+  margin-top:20px;
+  font-size:14px;
+}

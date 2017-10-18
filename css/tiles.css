@@ -1,0 +1,259 @@
+/***********************************************************
+product tiles
+- this is only for the styles within the tiles
+- widths of tiles should be handled inside plp.css
+***********************************************************/
+.list_tiles,
+.grid_tiles {
+  font-size:14px;
+  padding:16px;
+  position:relative;
+  color:rgba(42,42,42,0.8)
+}
+
+.list_tiles .img_wrap,
+.list_tiles .tile_info {
+  display:table-cell;
+  vertical-align:top;
+  max-width:100%;
+}
+
+.grid_tiles .img_wrap {
+  margin:0 auto 8px auto;
+  text-align:center;
+  width:100%;
+}
+
+.grid_tiles .img_wrap img {
+  display:block;
+  text-align:center;
+  margin:0 auto;
+}
+
+.list_tiles .img_wrap img {
+  margin-right:8px;
+}
+
+.grid_tiles .tile_info .title,
+.list_tiles .tile_info .title {
+  line-height:19px;
+  max-height:36px;
+  margin-bottom:10px;
+}
+
+.grid_tiles .tile_info .title a,
+.list_tiles .tile_info .title a {
+  text-decoration:none;
+  color:rgba(66,66,66,0.8);
+}
+
+.grid_tiles .promo_msg1,
+.list_tiles .promo_msg1 {
+  font-size:14px;
+  font-weight:500;
+  margin-top:8px;
+  color:#424242;
+}
+
+.grid_tiles .promo_msg2,
+.list_tiles .promo_msg2 {
+  font-size:12px;
+}
+
+.grid_tiles .promo_msg2 .red-savings,
+.list_tiles .promo_msg2 .red-savings {
+  color:#ec0439;
+}
+
+.grid_tiles .pricing,
+.list_tiles .pricing {
+  margin-top:4px;
+  color:rgba(66,66,66,0.8);
+  letter-spacing:-1px;
+}
+
+.grid_tiles .pricing sup,
+.list_tiles .pricing sup {
+  padding:0;
+  margin:0;
+  top:-.82em;
+}
+
+.grid_tiles .pricing .sign,
+.list_tiles .pricing .sign {
+  font-weight:600;
+  font-size:14px;
+}
+
+.grid_tiles .pricing .dollar,
+.list_tiles .pricing .dollar {
+  font-weight:600;
+  font-size:25px;
+  color:#000;
+  letter-spacing:0.011em;
+}
+
+.grid_tiles .pricing .cents,
+.list_tiles .pricing .cents {
+  font-weight:600;
+  font-size:14px;
+}
+
+.grid_tiles .fulfillment,
+.list_tiles .fulfillment {
+  width:100%;
+  margin:10px 0;
+  font-size:12px;
+}
+
+.grid_tiles .fulfillment .online,
+.grid_tiles .fulfillment .in-club,
+.list_tiles .fulfillment .online,
+.list_tiles .fulfillment .in-club {
+  float:left;
+  vertical-align: top;
+  width:50%;
+  margin-top:-10px;
+}
+
+.grid_tiles .fulfillment .online,
+.list_tiles .fulfillment .online {
+  width:60%;
+}
+
+.grid_tiles .fulfillment .in-club,
+.list_tiles .fulfillment .in-club {
+  width:40%;
+}
+
+.grid_tiles .fulfillment .online .heading,
+.grid_tiles .fulfillment .in-club .heading,
+.list_tiles .fulfillment .online .heading,
+.list_tiles .fulfillment .in-club .heading {
+  font-weight:500;
+}
+
+.grid_tiles .fulfillment .online .stock,
+.grid_tiles .fulfillment .in-club .stock,
+.list_tiles .fulfillment .online .stock,
+.list_tiles .fulfillment .in-club .stock {
+  margin-bottom:5px;
+}
+
+.grid_tiles .fulfillment .in-club .status.clubs,
+.list_tiles .fulfillment .in-club .status.clubs {
+  cursor:pointer;
+}
+
+.grid_tiles .fulfillment .online .status.shipping,
+.list_tiles .fulfillment .online .status.shipping {
+  color:#4ca90c;
+  padding-bottom:5px; /* more hover-able area for upgrade to plus popover */
+}
+
+.grid_tiles .actions,
+.list_tiles .actions {
+  margin-top:8px;
+  white-space: nowrap;
+  width:100%;
+}
+
+.grid_tiles .actions .btn-primary,
+.list_tiles .actions .btn-primary {
+  margin-right:10px;
+}
+
+.grid_tiles .actions.list,
+.list_tiles .actions.list {
+  margin-right:0;
+}
+
+.grid_tiles .add-to-list-wrap {
+  max-width:46px;
+  white-space: nowrap;
+}
+.grid_tiles .img-add-to-list {
+  cursor:pointer;
+}
+/***********************************************
+320 list tiles
+************************************************/
+
+.list320 {
+  max-width:320px;
+  min-width:320px;
+  padding:16px 8px;
+}
+
+.list320 .img_wrap {
+  padding-right:8px;
+}
+
+.list320 .fulfillment .online,
+.list320 .fulfillment .in-club {
+  min-width:95px;
+}
+
+.list320 .actions .btn-primary {
+  min-width:135px;
+}
+
+/***********************************************
+480 list tiles
+************************************************/
+
+.list480 {
+  max-width:480px;
+  min-width:480px;
+  padding:16px;
+}
+
+.list480 .img_wrap {
+  padding-right:16px;
+}
+
+.list480 .fulfillment .online,
+.list480 .fulfillment .in-club {
+  min-width:152px;
+}
+
+.list480 .actions .btn-primary {
+  min-width:240px;
+}
+
+/***********************************************
+480 Grid tiles
+************************************************/
+
+.grid480 {
+  max-width:240px;
+  min-width:240px;
+  height:400px;
+}
+
+.grid480 .img_wrap {
+  padding-bottom:12px;
+}
+
+.grid480 .tile_info .title {
+  line-height:1.3;
+}
+
+.grid480 .fulfillment .online,
+.grid480 .fulfillment .in-club {
+  min-width:108px;
+}
+
+.grid480 .actions .btn-primary {
+  min-width:156px;
+}
+
+.grid480 .actions {
+  position:relative;
+}
+.grid480 .actions.list {
+  position: absolute;
+  top: 50%;
+  height: 250px;
+  margin-top: -50px;
+}

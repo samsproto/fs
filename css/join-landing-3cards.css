@@ -1,0 +1,214 @@
+/* 3 card homepage */
+@media (min-width:1024px) {
+  body {
+    padding-top:200px;
+  }
+}
+
+.hero-text {
+  color:#fff;
+  text-align:center;
+  height:auto;
+  height:100%;
+  padding:60px 50px 75px 50px;
+  background:#188BDA;
+  background-size:auto;
+}
+
+.hero-img {
+  background:#eee url('../join/images/hero.png') 60% 40% no-repeat;
+  background-size:cover;
+}
+
+.card_img_wrap {
+  border-bottom:1px solid #eee;
+  position:relative;
+}
+
+.card_img_wrap .flag {
+  position:absolute;
+  background:#ec7202;
+  color:#fff;
+  top:-8px;
+  left:40px;
+  padding:2px 12px;
+  font-family: 'bree_serifregular';
+  font-size:14px;
+  border-radius:4px;
+}
+
+.membership_details {
+  margin-top:10px;
+  padding:0 40px;
+}
+
+.membership_details .price {
+  font-size:36px;
+  font-weight:500;
+  color:#424242;
+}
+
+.membership_details .price sup {
+  color:rgba(66, 66, 66, .7);
+  font-size:35%;
+  font-weight:400;
+  vertical-align:super;
+}
+
+.membership_details .details {
+  text-align:left;
+  min-height:125px;
+}
+
+.membership_details .details .title {
+  font-size:16px;
+  font-weight:600;
+}
+
+.membership_details .details .title .or {
+  font-size:14px;
+  font-weight:400;
+}
+
+.membership_details .details ul {
+  padding:0;
+  margin:0;
+  padding-left:15px;
+  font-size:12px;
+  color:rgba(66, 66, 66, .7);
+}
+
+.membership_details .details ul > li {
+  padding-bottom:6px;
+}
+
+.membership_details .per-month {
+  color:rgba(66, 66, 66, .7);
+  font-size:12px;
+  margin-top:10px;
+}
+
+.compare {
+  margin-bottom:50px;
+}
+/* toggle chevron up and down */
+.compare a[aria-expanded=true] .fa-chevron-down,
+.compare a[aria-expanded=false] .fa-chevron-up {
+  display: none;
+}
+
+.table.comparisons > thead > tr > th {
+  font-size:18px;
+}
+
+.table.comparisons > tbody > tr > td {
+  vertical-align: middle;
+  padding:25px 20px;
+  width:25%;
+}
+
+.table.comparisons .features {
+  color:rgba(66,66,66,0.6)
+}
+
+.table.comparisons .fa-check-circle {
+  color:rgba(76, 169, 12, 1);
+}
+
+.table.comparisons .features .headline {
+  font-size:18px;
+  font-weight:500;
+  margin-bottom:5px;
+  color:rgba(66,66,66,1)
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+  .table.comparisons > tbody > tr > td:first-child {
+    width:52%;
+  }
+
+  .table.comparisons > tbody > tr > td {
+    width:16%;
+  }
+}
+
+.section {
+  border-top:1px solid #eee;
+  padding-top:15px;
+  padding-bottom:25px;
+}
+
+.section .title {
+  color:rgba(66,66,66,0.6);
+  margin-bottom:25px;
+}
+
+.section .title h3 {
+  color:rgba(66,66,66,0.85);
+}
+
+.section .perks {
+  margin-bottom:30px;
+}
+
+.section .perks img {
+  max-width:18%;
+}
+
+.section .perks .name {
+  font-weight:500;
+  font-size:16px;
+  color:rgba(66,66,66,0.9);
+}
+
+.section .perks .desc {
+  font-size:14px;
+  color:rgba(66,66,66,0.65);
+  margin-right:75px;
+  margin-left:75px;
+}
+
+.section.testimonials .media {
+  padding-left:80px;
+  padding-right:80px;
+  margin-bottom:25px;
+}
+
+.section.local-club .heading {
+  font-size:18px;
+  font-weight:500;
+}
+
+.section.more-options .military {
+  background:#eee url('../join/images/membership_military.png') 25% 40% no-repeat;
+  background-size:cover;
+  margin:0;
+  padding:0;
+}
+
+.section.more-options .collegiate {
+  background:#eee url('../join/images/membership_collegiate.png') 25% 40% no-repeat;
+  background-size:cover;
+  margin:0;
+  padding:0;
+}
+
+.section.more-options .military-info,
+.section.more-options .collegiate-info {
+  background:rgba(255,255,255,0.85);
+  text-align:center;
+  height:250px;
+  padding:30px 25px;
+  background-size:auto;
+}
+
+.section.more-options .military-info .heading,
+.section.more-options .collegiate-info .heading {
+  font-size:20px;
+  color:rgba(66,66,66,09);
+  font-weight:600;
+  margin-top:22px;
+}
+
+/* /3 card homepage */
