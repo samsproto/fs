@@ -55,6 +55,10 @@
     width:126px !important;
   }
 
+  .dropdown-menu.upgrade-to-plus {
+    white-space: nowrap;
+  }
+
   #subtotal {
     margin-top: 30px;
   }

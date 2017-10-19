@@ -162,14 +162,14 @@ function() {
 // });
 
 var searchpdpTV = function(){
-  if (event.keyCode == 13) {
+  if (event.keyCode == 13 || event.buttons == 0) {
     event.preventDefault();
     window.location = "plp-2.html";
   }
 };
 
 var homesearch = function(){
-  if (event.keyCode == 13) {
+  if (event.keyCode == 13 || event.buttons == 0) {
     event.preventDefault();
     window.location = "plp-1.html";
   }

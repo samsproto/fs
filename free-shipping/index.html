@@ -68,10 +68,10 @@
           <form class="navbar-form navbar-left search-form" role="form">
             <div class="form-group has-feedback">
               <label class="control-label sr-only" for="search">Search</label>
-              <input type="text" id="search" class="form-control" placeholder="Search..." onkeypress = "homesearch()" />
-              <span class="fa-stack fa-lg form-control-feedback" aria-hidden="true">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-search fa-stack-1x fa-inverse"></i>
+              <input type="text" id="search" class="form-control" placeholder="Search..." onkeypress = "homesearch()"/>
+              <span class="fa-stack fa-lg form-control-feedback" aria-hidden="true" onclick = "homesearch()" style="pointer-events:auto;">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-search fa-stack-1x fa-inverse"></i>
               </span>
             </div>
           </form>
